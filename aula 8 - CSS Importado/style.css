@@ -1,0 +1,60 @@
+/*Arquivo de código CSS Importado*/
+
+body {
+    background: #4d4949;
+    color: #fff;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background: #022;
+    padding: 10px;
+    text-align: center;
+}
+
+#form_cad_pessoa{
+    position: relative;
+    margin: auto;
+    width: 500px;
+    top: 20px;
+    padding: 20px;
+    border: #022 2px solid;
+    border-radius: 20px;
+}
+
+input{
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+}
+
+select{
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+}
+
+input:focus{
+    border: #ff3700 5px solid;
+}
+
+select:focus{
+    border: #f3d80e 5px solid;
+}
+
+.form_botao{
+    position: relative;
+    margin: 2px;
+    width: 100%;
+    background: #022;
+    color: #fff;
+}
+
+.form_botao:hover{
+    border: #fff 5px solid;
+}
+
+.form_botao:active{
+    border: #f2ff00 7px groove;
+}

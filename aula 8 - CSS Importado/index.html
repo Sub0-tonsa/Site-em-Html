@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulário</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Formulário formatado com CSS Importado</h1>
+        </header>
+
+        <main>
+            <form action method="post" id="form_cad_pessoa">
+                <small>Nome: </small> <br>
+                <input type="text" name="txt_nome"><br>
+                <small>Endereço: </small> <br>
+                <input type="text" name="txt_endereco"><br>
+                <small>Telefone: </small> <br>
+                <input type="tel" name="txt_telefone"><br>
+                <small>Celular: </small> <br>
+                <input type="tel" name="txt_celular"><br>
+                <small>Email: </small> <br>
+                <input type="email" name="txt_email"><br>
+                <small>Data de Nascimento: </small><br>
+                <input type="date" name="txt_data_nasc"><br>
+                <small>Estado: </small><br>
+                <select>
+                    <option value="Estado" selected>Selecione o Estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+
+                <br><br>
+
+                <input type="submit" value="Salvar" class="form_botao"><br>
+                <input type="reset" value="Limpar" class="form_botao">
+            </form>
+        </main>
+    </body>
+</html>
