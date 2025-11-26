@@ -1,0 +1,42 @@
+header {
+    text-align: center;
+    margin: 0px;
+}
+
+p {
+    text-align: justify;
+    position: relative;
+    margin: auto;
+    width: 70%;
+    top: 30px;
+}
+
+img {
+    height: 400px;
+}
+
+.alinhamento_carrosel {
+    margin: 0px;
+    position: relative;
+    top: -20px;
+}
+
+.txt_titulo {
+    text-align: center;
+    top: 10px;
+}
+
+.formato_form {
+    padding: 10px;
+    background: #eaeaea;
+}
+
+.alinhamento_form {
+    position: relative;
+    margin: auto;
+    width: 80%;
+}
+
+.botao_tamanha {
+    width: 100%;
+}
