@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <h1 style="text-align: center;">01º exemplo de Javascript</h1>
+        <hr>
+
+        <script>
+            alert("Programando em JavaScript.....");
+            document.write("<h2 align='center'>Minha primeira página em JS </h2>");
+
+            //String
+            var text_string = "Variáveis do tipo STRING";
+            var texto_teste = "Texto de uma variável do tipo STRING"; 
+            var ano_atual = "Ano atual: 2025";
+            
+            //Int
+            var n1 = 700;
+            var n2 = 300;
+            var res_soma = n1 + n2;
+
+            //Float ou Double
+            var g1 = 45.50;
+            var g2 = 300.78;
+            var res_div = g2 / g1;
+
+            //Booleano
+            var h1 = true;
+            var h2 = false;
+
+            //Mostrando na Web
+            document.write(text_string + "<br> <br>" + texto_teste + "<br>" + ano_atual);
+
+            document.write("<br> <br> <hr>");
+            document.write("<br>O resultado da soma de " + n1 + " + " + n2 + " é: "+ res_soma);
+
+            document.write("<br> <br> <hr>");
+            document.write("<br>O resultado da divisão de " + g2 + " / " + g1 + " é: "+ res_div);
+
+            document.write("<br> <br> <hr>");
+            document.write("<br>Valor de h1 é: " + h1 + "<br>Valor de h2 é: "+ h2);
+
+            document.write("<br> <br> <hr> <h3 align='center'> Exemplo de If no JS </h3>");
+           //if
+           var x1 = 40;
+           var x2 = 20;
+
+           if(x1 > x2) {
+            document.write("<body bgcolor='red';>" + "x1 > x2");
+           }
+            else
+           if(x1 < x2) {
+            document.write("<body bgcolor='blue';>" + "x1 < x2");
+           }
+            else 
+           {
+            document.write("<body bgcolor='yellow';>" + "x1 = x2");
+           }
+
+        </script>
+
+    </body>
+</html>
